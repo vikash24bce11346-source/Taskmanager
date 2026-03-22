@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f4f6f8;
+  padding: 20px;
+}
+
+/* Title */
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Board Layout */
+.board {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Columns */
+.column {
+  background: #e3e7ea;
+  padding: 15px;
+  border-radius: 10px;
+  width: 300px;
+  min-height: 400px;
+}
+
+/* Column Title */
+.column h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Task Card (future use) */
+.task {
+  background: white;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  cursor: grab;
+}
+
+/* Button */
+#addTaskBtn {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#addTaskBtn:hover {
+  background: #0056b3;
+}
